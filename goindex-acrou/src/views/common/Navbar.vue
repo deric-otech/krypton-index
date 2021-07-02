@@ -51,7 +51,7 @@
                   v-model="param"
                   type="search"
                   :placeholder="$t('search.placeholder')"
-                  style="background-color: rgb(68, 66, 66);border-color: #117c91;"
+                  style="background-color: rgb(68, 66, 66);border-color: #272727;"
                 />
                 <span class="icon is-small is-left" style="padding:0 5px;">
                   <!-- <i class="fas fa-search"></i> -->
@@ -61,15 +61,6 @@
             </div>
           </div>
           <header-locales />
-          <a
-            class="navbar-item"
-            target="_blank"
-            rel="noopener"
-            title="View on github"
-            href="https://github.com/w0lfrm/krypton-index"
-          >
-            <i class="fab fa-github"></i>
-          </a>
           <header-setting />
           <a
             class="navbar-item is-hidden-desktop"
